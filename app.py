@@ -1,6 +1,5 @@
 # app.py
 import base64
-from fastapi import Path
 import streamlit as st
 import requests
 import matplotlib.pyplot as plt
@@ -172,5 +171,6 @@ if st.button("Analyze Document"):
                     #     file_name="detection_report.json",
                     #     mime="application/json"
                     # )
+
 
       
